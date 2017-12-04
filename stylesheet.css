@@ -1,0 +1,32 @@
+body {
+    margin-left: 12rem;
+    margin-top: 5rem;
+    max-width: 50rem;
+    /* TODO I want the margin to collapse before the width collapses.*/
+    /* min-width: 20rem; */
+    font-family: Garamond, serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+div.last-updated {
+    font-style: italic;
+    color: gray;
+}
+
+
+div.picture-of-me {
+  float:right;
+  margin-left: 10px;
+}
+div.picture-of-me>img {
+  width: 15rem;
+  border:1px solid gray;
+}
+div.picture-of-me>div {
+  font-style: italic;
+  color: gray;
+}
