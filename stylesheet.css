@@ -17,7 +17,6 @@ div.last-updated {
     color: gray;
 }
 
-
 div.picture-of-me {
   float:right;
   margin-left: 10px;
@@ -29,4 +28,23 @@ div.picture-of-me>img {
 div.picture-of-me>div {
   font-style: italic;
   color: gray;
+}
+
+ul.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 2em;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+ul.navbar>li {
+    display: inline;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: .75em;
 }
